@@ -1,0 +1,18 @@
+ <div class="container">
+     <br>
+    <div class="row">
+      <div *ngFor="let product of products" class="col-sm">
+          <div class="card">
+              <img src="./assets/img/placeholder-260-280.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a [routerLink]="['/detail']" routerLinkActive="router-link-active" >
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </a>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+
